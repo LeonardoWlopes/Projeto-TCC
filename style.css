@@ -39,12 +39,16 @@ div.valores{
 
 }
 div#div_resultados{
-    
+    padding: 5px;
     width: 50%;
     background-color: #F2D264;
 }
+.descricoes{
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px;
+}
 div#div_inputs{
-    
     width: 50%;
     background-color: #C1C1C1;
 }
