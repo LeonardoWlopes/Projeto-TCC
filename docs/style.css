@@ -1,0 +1,28 @@
+body{
+    font: normal 24px sans-serif;
+}
+header{
+    text-align: center;
+}
+section{
+    width: 1100px;
+    background-color: chartreuse;
+    margin: auto;
+    display: flex;
+}
+div{
+    padding: 5px;
+    background-color: blue;
+    margin: 5px;
+}
+div#div_imagem{
+    height: 100%;    
+}
+div#div_painel{
+    width: auto;
+    height: 503px;
+}
+img{
+    border: solid white;
+    width: 700px ;
+}
