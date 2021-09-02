@@ -14,12 +14,29 @@ section{
     height: auto;
     margin: auto;
     background-color: #434142;
+    box-shadow: 5px 5px 5px #2c2a2b7e;
 }
-div{
+div.principais{
     border-radius: 10px 0px;
     height: 500px;
     border: solid 5px white;
     margin: 5px 5px;
+}
+div.valores{
+    padding: 5px;
+    width: 80%;
+    margin: 5px auto;
+    background-color: #434142;
+    border: solid 3px white;
+    color: white
+}
+.valores > input{
+    float: right;
+    margin: 3px;
+    width: 50px;
+    text-align: end;
+    font-weight: 600;
+
 }
 div#div_resultados{
     
@@ -31,7 +48,7 @@ div#div_inputs{
     width: 50%;
     background-color: #C1C1C1;
 }
-
+ 
 /* Color Theme Swatches in Hex */
 .yellows3-1-hex { color: #434142; }
 .yellows3-2-hex { color: #FFCB05; }
