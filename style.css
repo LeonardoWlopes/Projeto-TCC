@@ -59,8 +59,7 @@ div#div_inputs{
     background-color: #C1C1C1;
 }
 div#resultados{
-    background-color: aqua;
-    margin: 10px;
+    text-align: center;
 }
 button{
     font: bolder 16px sans-serif;
