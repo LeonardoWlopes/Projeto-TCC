@@ -20,7 +20,12 @@ function calcular(){
     
 }
 function extrato(soma){
-    let valorkwh = 0.80
+
+    let valorkwh = 0.85
+    let valorhora = soma*valorkwh
+    let valordia = valorhora * 24
+    let valorfinal = valordia * 30
+
     let display = document.getElementById('resultados')
     display.innerHTML = ''
     display.innerHTML = `<h3>Total sendo gasto: ${soma}Kwh</h3>`

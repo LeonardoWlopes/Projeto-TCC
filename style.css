@@ -61,6 +61,10 @@ div#div_inputs{
 div#resultados{
     text-align: center;
 }
+#resultados span{
+    color: rgb(0, 201, 0);
+    text-decoration: underline;
+}
 button{
     opacity: 1;
     font: bolder 16px sans-serif;
