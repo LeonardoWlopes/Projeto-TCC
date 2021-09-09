@@ -62,6 +62,7 @@ div#resultados{
     text-align: center;
 }
 button{
+    opacity: 1;
     font: bolder 16px sans-serif;
     border-radius: 10px;
     padding: 10px 10px;
