@@ -1,6 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
+  //"noImplicitAny": false,
   "compilerOptions": {
     "strict": true
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
