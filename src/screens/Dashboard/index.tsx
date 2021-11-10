@@ -1,13 +1,15 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { Container } from "./styles";
+import { Container, Modal } from "./styles";
 
 // import { Container } from './styles';
 
 const Dashboard: React.FC = () => {
   return (
     <Container>
-      <Text>Dashboard</Text>
+     <Modal>
+       <Title></Title>
+     </Modal>
     </Container>
   );
 };
